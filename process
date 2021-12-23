@@ -1,0 +1,16 @@
+Start 23/12 13h30
+
+0 - lancer l'appli pour vérifier le bon fonctionnement
+1 - ajouter les dépendances pour les TU
+2 - corriger le bug d'update (code inexistant) (ajout du CRUDRepo pour simplifier l'implem)
+3 - corriger le delete (le transactional readOnly block) (corrigé par l'implem de l'update)
+4 - add java filter on getFilteredEvents
+5 - add counters on title and names
+6 - ajout des tests manquant (boyscout) except repository
+
+avant chaque étape : test manuel pour confirmer le fonctionnement existant
+après chaque étape : test manuel pour confirmer le nouveau fonctionnement
+
+les appels d'API ont été testé a l'aide de postman
+
+Fin 23/12 16h24
