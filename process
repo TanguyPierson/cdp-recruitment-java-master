@@ -14,3 +14,19 @@ après chaque étape : test manuel pour confirmer le nouveau fonctionnement
 les appels d'API ont été testé a l'aide de postman
 
 Fin 23/12 16h24
+
+Manque de temps pour terminer la couverture de test avant de refacto le code existant
+
+Suite a la couverture, j'avais déjà repéré un changement a faire dans le controller
+  - retirer les RequestMapping pour passer sur des PostMapping ou GetMapping
+
+modification a faire dans le repo
+  - findAllBy a renommer en findAll et voir avec les tests si c'est toujours bon
+
+point plus global dans le code
+  - regarder les accesseurs et placer des private final aux bons endroits pour optimiser l'utilisation de la mémoire
+  
+il y a probablement plus de chose a voir mais je n'ai pas eu le temps de regarder plus
+
+concernant le code du service que j'ai ajouté pour la partie filter
+ne sachant pas ce qui été attendu derrière ""écrire en pur java"", j'ai écris une partie avec des lambdas et l'autre avec un "for" classique
